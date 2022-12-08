@@ -30,6 +30,9 @@
                                 <state key="normal" title="MULTIBRANDSSHOP">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="greetingButtonDidTupped" destination="BYZ-38-t0r" eventType="touchUpInside" id="zM2-7Z-06y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,6 +46,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nt1-Zq-SAq" secondAttribute="trailing" constant="70" id="zvs-nf-I8o"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greetingButton" destination="PSV-5w-aPg" id="TPT-7R-Q4k"/>
+                        <outlet property="greetingLabel" destination="Nt1-Zq-SAq" id="2PE-Uq-jBR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
